@@ -3,6 +3,7 @@
 #include <iostream>
 
 class Nodo {
+friend class Tree;
 private:
     //Costruttore del nodo a 0,1,2,3 parametri, in tutti i casi i parametri passati per valore, verranno assegnati
     //richiamando la costruzione di copia o assegnando l'indirizzo al puntatore specifico
@@ -12,4 +13,4 @@ private:
     Nodo* dx;
 };
 
-#endif //TREE_NODO_H
+#endif
